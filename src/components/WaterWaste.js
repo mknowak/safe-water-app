@@ -45,7 +45,7 @@ const WaterWaste = (props) => {
                 <h2>Możesz oszczędzić: <strong>{lowervalue} l</strong></h2>
 
             </div>
-            <button className='more'>Dowiedz się więcej<a href= "https://mknowak.github.io/save-water-page/"></a></button>
+            <button className='more'><a href= "https://mknowak.github.io/save-water-page/">Dowiedz się więcej</a></button>
         </section>
 
     )
