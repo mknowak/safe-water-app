@@ -1,0 +1,160 @@
+section.box {
+    width: 85%;
+    margin: 20px auto 0px auto;
+
+}
+
+.list {
+    padding: 10px;
+    background-color: rgb(15, 15, 15);
+
+}
+
+.list h2 {
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.button_holder {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button_holder button {
+
+    margin-right: 5px;
+    padding: 5px 5px;
+    color: #666;
+    border: 1px solid #666;
+    font-size: 10px;
+    background-color: transparent;
+}
+
+.product_list {
+    margin: 0 0 10px 10px;
+    height: 20vh;
+    overflow-y: scroll;
+}
+
+.product_list::-webkit-scrollbar {
+    width: 3px;
+}
+
+.product_list::-webkit-scrollbar-thumb {
+    background-color: #666;
+}
+
+.cart {
+    width: 100%;
+    margin: 10px auto 0px auto;
+    padding: 10px;
+    background-color: rgb(15, 15, 15);
+
+}
+
+.cart h2 {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.cart_list {
+    height: 10vh;
+    overflow-y: scroll;
+}
+
+.cart_list::-webkit-scrollbar {
+    width: 3px;
+}
+
+.cart_list::-webkit-scrollbar-thumb {
+    background-color: #666;
+}
+
+@media (min-width: 415px) {
+    section.box {
+        width: 80%;
+    }
+
+    .list {
+        padding: 20px;
+    }
+
+    .list h2 {
+        padding-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .button_holder {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .button_holder button {
+
+        margin-right: 10px;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .product_list {
+        height: 25vh;
+    }
+
+    .cart h2 {
+        padding-bottom: 15px;
+        font-size: 28px;
+
+    }
+
+    .cart_list {
+        height: 12vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    section.box {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .list {
+        flex-basis: 55%;
+        max-height: 72vh;
+        padding: 10px 10px 0 10px;
+    }
+
+    .right_side {
+        flex-basis: 42%;
+        max-height: 72vh;
+    }
+
+    .cart {
+        margin: 0 auto;
+    }
+
+    .product_list {
+        height: 37vh;
+    }
+
+    .product_list::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .cart_list {
+        height: 22vh;
+    }
+
+    .cart_list::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .button_holder button:hover {
+        color: rgb(135, 235, 230);
+        border-color: rgb(135, 235, 230);
+    }
+
+}

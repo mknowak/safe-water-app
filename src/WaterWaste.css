@@ -1,0 +1,56 @@
+.waste {
+    margin-top: 10px;
+
+}
+
+.waste h2 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.sum_production,
+.save {
+    background-color: rgba(3, 3, 3, 0.3);
+}
+
+.save h2 {
+    font-weight: bold;
+}
+
+.more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 10px;
+    font-size: 18px;
+    background-color: rgba(3, 3, 3, 0.8);
+}
+
+@media (min-width: 415px) {
+    .waste {
+        margin-top: 15px;
+    }
+
+    .waste h2 {
+        font-size: 24px;
+    }
+
+    .more {
+        margin: 40px auto;
+        padding: 12px 12px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .more {
+        margin: 35px auto;
+        font-size: 20px;
+    }
+
+    .more:hover {
+        font-weight: bold;
+        color: rgb(3, 3, 3);
+        background-color: rgba(238, 238, 238, 0.7);
+        border-color: rgb(3, 3, 3);
+    }
+}

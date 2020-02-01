@@ -1,0 +1,37 @@
+.product p {
+    padding: 2px 0;
+}
+
+.product p button {
+    margin-left: 8px;
+    padding: 1px 5px;
+    font-size: 12px;
+    color: #ccc;
+    background-color: transparent;
+    border: 1px solid #ccc;
+}
+
+@media (min-width: 415px) {
+    .product p {
+        padding: 4px 0;
+    }
+
+    .product span {
+        font-size: 18px;
+    }
+
+    .product p button {
+        margin-left: 10px;
+        padding: 2px 8px;
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .product p button:hover {
+        background-color: #ccc;
+        color: rgb(15, 15, 15);
+        border-color: rgb(15, 15, 15);
+    }
+}
