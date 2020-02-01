@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/save-water-app/precache-manifest.c46c7c97ed2c37c36fef6b0e57966aee.js"
+  "/save-water-app/precache-manifest.861a48049fcb1cb6260710395f38b725.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c5c4576d98d00dc733a8b6bf8d441ac",
+    "revision": "8fff7a1b91588f7ee0d0f84319706fb4",
     "url": "/save-water-app/index.html"
   },
   {
-    "revision": "9b7746f26e874420a6ca",
+    "revision": "7735033330d4e0bd30cf",
     "url": "/save-water-app/static/css/main.9628c3d3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/save-water-app/static/js/2.57c6d613.chunk.js.LICENSE"
   },
   {
-    "revision": "9b7746f26e874420a6ca",
-    "url": "/save-water-app/static/js/main.8bbf52f7.chunk.js"
+    "revision": "7735033330d4e0bd30cf",
+    "url": "/save-water-app/static/js/main.83bd4de0.chunk.js"
   },
   {
     "revision": "ec39549fe06ce54c75f6",
