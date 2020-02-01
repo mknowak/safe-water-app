@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/save-water-app/static/css/main.9628c3d3.chunk.css",
+    "main.js": "/save-water-app/static/js/main.8bbf52f7.chunk.js",
+    "main.js.map": "/save-water-app/static/js/main.8bbf52f7.chunk.js.map",
+    "runtime-main.js": "/save-water-app/static/js/runtime-main.2911ff10.js",
+    "runtime-main.js.map": "/save-water-app/static/js/runtime-main.2911ff10.js.map",
+    "static/js/2.57c6d613.chunk.js": "/save-water-app/static/js/2.57c6d613.chunk.js",
+    "static/js/2.57c6d613.chunk.js.map": "/save-water-app/static/js/2.57c6d613.chunk.js.map",
+    "index.html": "/save-water-app/index.html",
+    "precache-manifest.c46c7c97ed2c37c36fef6b0e57966aee.js": "/save-water-app/precache-manifest.c46c7c97ed2c37c36fef6b0e57966aee.js",
+    "service-worker.js": "/save-water-app/service-worker.js",
+    "static/css/main.9628c3d3.chunk.css.map": "/save-water-app/static/css/main.9628c3d3.chunk.css.map",
+    "static/js/2.57c6d613.chunk.js.LICENSE": "/save-water-app/static/js/2.57c6d613.chunk.js.LICENSE",
+    "static/media/App.css": "/save-water-app/static/media/rain-4559068_640.f3667578.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2911ff10.js",
+    "static/js/2.57c6d613.chunk.js",
+    "static/css/main.9628c3d3.chunk.css",
+    "static/js/main.8bbf52f7.chunk.js"
+  ]
+}
